@@ -1,4 +1,5 @@
+import like
 import comment
 
 def main():
-	return comment.comment()
+	return like.like() + comment.comment()
