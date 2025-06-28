@@ -1,4 +1,7 @@
+
+import like
+import comment
 import hate
 
 def main():
-	return hate.hate()
+	return like.like() + comment.comment() + hate.hate()
